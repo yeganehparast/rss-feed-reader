@@ -9,6 +9,10 @@ The Dockerfile will build and run application. to build and run application with
 `docker build --build-arg JAR_FILE=target/*.jar -t rss-feed-reader .`
 `docker run -p 8080:8080 rss-feed-reader`
 
+`run.sh` and `run.cmd` will do it. 
+
+Thanks for your review. 
+ 
 
 [XKCD]: https://xkcd.com/json.html
 
