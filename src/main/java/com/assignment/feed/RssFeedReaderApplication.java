@@ -1,4 +1,4 @@
-package com.assingment.feed;
+package com.assignment.feed;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -24,7 +24,7 @@ public class RssFeedReaderApplication {
 	public Docket docket() {
 		return new Docket(DocumentationType.SWAGGER_2)
 				.select()
-				.apis(RequestHandlerSelectors.basePackage("de.mobile.controller"))
+				.apis(RequestHandlerSelectors.basePackage("com.assignment.feed.controller"))
 				.paths(PathSelectors.any())
 				.build()
 				.apiInfo(generateApiInfo());
