@@ -22,6 +22,9 @@ import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * PDL component reads the items from feed. It uses the ROME utility api to fetch data
+ */
 @Component
 @Slf4j
 public class PDLComponent {

@@ -16,7 +16,9 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-
+/**
+ * This is the controller which returns the latest 20 items from the two feeds. It combines them into a single list of Feed DTO.
+ */
 @RestController
 @RequestMapping(path = "/v1/comic")
 public class FeedController {

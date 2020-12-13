@@ -13,6 +13,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * XKCD component uses RestTemplate to read data from the feed. It creates a specific DTO "XKCDItem" to keep the read data
+ * from the feed.
+ */
 @Component
 @Slf4j
 public class XKCDComponent {
